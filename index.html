@@ -122,9 +122,11 @@ img{max-width:100%;display:block;}
   }
   #hero .wed-pic{
     position: relative;
-    top: -5.2rem;
+    top: 1.35rem;
     z-index: 5;
     width: 100%;
+    transform: scale(0.95);
+    border-radius: 5px;
   }
   #hero .garland{
     z-index: 7;
@@ -185,14 +187,15 @@ h2.section-title{font-family:var(--font-heading);color:var(--maroon);font-size:2
   scale: 1;
 }
 #stylus-text{
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin-top: -2rem;
+  padding-top: 2rem;
 }
 #stylus-text span{
   font-family:var(--font-serif);font-style:italic;
   color:var(--gold);
   font-family: "Great Vibes", cursive;
-  font-size:5rem;
+  font-size:4rem;
 }
 #hero .together{font-family:var(--font-serif);font-style:italic;font-size:15px;color:var(--maroon);}
 #hero-frame{margin:24px auto 0;width:210px;height:260px;position:relative;}
@@ -343,7 +346,7 @@ font-weight: 600;}
     <section id="hero" class="paper-tex">
       <img src="./garland.png" class="garland" />
       <!-- <p class="together reveal">With the blessings of our families</p> -->
-      <img src="./wed.png" class="wed-pic" />
+      <img src="./wed-new.png" class="wed-pic" />
       <!-- <div id="hero-frame" class="reveal-scale"> -->
         <!-- <div class="ring1"></div><div class="ring2"></div> -->
         <!-- <div class="photo"> -->
@@ -356,7 +359,7 @@ font-weight: 600;}
       <!-- </div> -->
       <!-- <h1 class="names reveal" id="hero-names"><span class="amp"></span></h1> -->
       <!-- <div class="date-pill reveal" id="hero-date-pill"></div> -->
-       <p id="stylus-text">The beginning of<br> <span>Always</span></p>
+       <p id="stylus-text">The beginning of<br> <span>always</span></p>
     </section>
 
     <div class="divider reveal">
@@ -384,7 +387,7 @@ font-weight: 600;}
           <div class="details">
             27 AUGUST 2026<br/>
             MUHURTHAM — 11:07 AM<br/>
-            <span>SANKARNARAYANA KALYANA MADAPAM, ONGOLE</span>
+            <span>SANKARNARAYANA KALYANA MANDAPAM, ONGOLE</span>
           </div>
         </div>
         <canvas id="scratch-canvas" role="img" aria-label="Scratch card revealing the wedding invitation for Hima Varsha and Satya Roopesh"></canvas>
@@ -472,7 +475,7 @@ font-weight: 600;}
       <div class="detail-grid reveal-scale">
         <div class="detail-cell"><div class="label">DATE</div><div class="value" id="detail-date">27 August 2026</div></div>
         <div class="detail-cell"><div class="label">MUHURTHAM</div><div class="value" id="detail-muhurtham">11:07 AM</div></div>
-        <div class="detail-cell"><div class="label">VENUE</div><div class="value" id="detail-venue">Sankarnarayana Kalyana Madapam</div></div>
+        <div class="detail-cell"><div class="label">VENUE</div><div class="value" id="detail-venue">Sankarnarayana Kalyana Mandapam</div></div>
         <div class="detail-cell"><div class="label">LOCATION</div><div class="value" id="detail-location">Ongole</div></div>
       </div>
     </section>
@@ -533,7 +536,7 @@ const weddingConfig = {
     date: "2026-08-27T11:07:00", // used for the muhurtham countdown
     displayDate: "27 August 2026",
     muhurtham: "11:07 AM",
-    venue: "Sankarnarayana Kalyana Madapam",
+    venue: "Sankarnarayana Kalyana Mandapam",
     location: "Ongole"
   },
   scratchReveal: {
