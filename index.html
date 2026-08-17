@@ -326,7 +326,8 @@ font-weight: 600;}
     </div> -->
     <div class="eyebrow">Reception Invitation</div>
     <div id="opening-seal">
-      <div id="opening-initials">H&nbsp;&amp;&nbsp;S</div>
+      <div id="opening-initials">S&nbsp;&amp;&nbsp;H</div>
+
     </div>
     <div id="opening-tap">TAP TO OPEN</div>
     <!-- <div class="instruction">Two hearts, two souls, and one beautiful journey begins…
@@ -345,8 +346,15 @@ font-weight: 600;}
     <!-- ---- 2. COUPLE INTRODUCTION ---- -->
     <section id="hero" class="paper-tex">
       <img src="./garland.png" class="garland" />
-      <!-- <p class="together reveal">With the blessings of our families</p> -->
-      <img src="./wed-new.png" class="wed-pic" />
+      <p id="stylus-text">The beginning of<br> <span>always</span></p>
+     <!-- <p id="stylus-text">
+        <br>
+        <br>
+        <br>
+        </p>
+      <p class="together reveal">With the blessings of our families</p>-->
+      <img src="./reception.png" class="wed-pic" />
+
       <!-- <div id="hero-frame" class="reveal-scale"> -->
         <!-- <div class="ring1"></div><div class="ring2"></div> -->
         <!-- <div class="photo"> -->
@@ -359,7 +367,7 @@ font-weight: 600;}
       <!-- </div> -->
       <!-- <h1 class="names reveal" id="hero-names"><span class="amp"></span></h1> -->
       <!-- <div class="date-pill reveal" id="hero-date-pill"></div> -->
-       <p id="stylus-text">The beginning of<br> <span>always</span></p>
+
     </section>
 
     <div class="divider reveal">
@@ -562,7 +570,8 @@ const ReceptionConfig = {
 /* ================================================================
    3. RENDER FROM CONFIG
    ================================================================ */
-const initials = ReceptionConfig.bride.name[0] + "<span> &hearts;</span> " + ReceptionConfig.groom.name[0];
+<!--const initials = ReceptionConfig.bride.name[0] + "<span> &hearts;</span> " + ReceptionConfig.groom.name[0];-->
+const initials = ReceptionConfig.groom.name[0] + "<span> &hearts;</span> " + ReceptionConfig.bride.name[0];
 document.getElementById('opening-initials').innerHTML = initials;
 // document.getElementById('opening-date').textContent = ReceptionConfig.Reception.displayDate.toUpperCase();
 // document.getElementById('opening-venue').textContent = (ReceptionConfig.Reception.venue + ', ' + ReceptionConfig.Reception.location).toUpperCase();
