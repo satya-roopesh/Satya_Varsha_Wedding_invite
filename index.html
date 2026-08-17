@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Hima Varsha & Satya Roopesh — Wedding Invitation</title>
+<title>Satya Roopesh & Hima Varsha —  Reception Invitation</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Marcellus&family=Jost:wght@300;400;500;600&family=Felipa&display=swap" rel="stylesheet">
@@ -236,7 +236,7 @@ font-weight: 600;}
 #scratch-canvas{position:absolute;inset:0;touch-action:none;cursor:pointer;}
 .scratch-fallback{margin-top:16px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid var(--gold);padding-bottom:3px;display:inline-block;}
 
-/* ---------- Main wedding invitation ---------- */
+/* ---------- Main Reception invitation ---------- */
 #invitation{background:var(--cream);text-align:center;}
 .invitation-card{margin-top:26px;background:var(--ivory);border:1px solid rgba(140,109,51,.3);border-radius:4px;padding:32px 22px;position:relative;}
 .invitation-card::before{content:'';position:absolute;top:9px;left:9px;right:9px;bottom:9px;border:1px solid rgba(198,161,91,.35);pointer-events:none;}
@@ -275,7 +275,7 @@ font-weight: 600;}
 .directions-btn:active{transform:scale(.95);}
 .directions-btn svg{width:16px;height:16px;}
 
-/* ---------- Wedding day details ---------- */
+/* ---------- Reception day details ---------- */
 #details{background:var(--paper);}
 .detail-grid{margin-top:26px;display:grid;grid-template-columns:1fr 1fr;gap:14px;}
 .detail-cell{background:var(--ivory);border:1px solid rgba(140,109,51,.3);border-radius:4px;padding:20px 14px;text-align:center;}
@@ -307,7 +307,7 @@ font-weight: 600;}
 
 <canvas id="petal-canvas"></canvas>
 
-<button class="sound-toggle" id="sound-toggle" aria-label="Toggle wedding music" aria-pressed="false">
+<button class="sound-toggle" id="sound-toggle" aria-label="Toggle Reception music" aria-pressed="false">
   <svg id="sound-icon-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M11 5 6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
   <svg id="sound-icon-on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" style="display:none"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 6a9 9 0 0 1 0 12"/></svg>
   <span id="sound-label">SOUND ON</span>
@@ -324,7 +324,7 @@ font-weight: 600;}
     <img src="./orn22.png" class="orn-img" />
     <!-- <div class="frame-border">
     </div> -->
-    <div class="eyebrow">Wedding Invitation</div>
+    <div class="eyebrow">Reception Invitation</div>
     <div id="opening-seal">
       <div id="opening-initials">H&nbsp;&amp;&nbsp;S</div>
     </div>
@@ -383,35 +383,37 @@ font-weight: 600;}
           <!-- <div class="names">Hima Varsha</div> -->
           <!-- <div class="amp">&amp;</div> -->
           <!-- <div class="names" style="font-size:24px">Satya Roopesh</div> -->
-          <p class="line">Together with the blessings of their families, invite you to grace their wedding ceremony</p>
+          <p class="line">Together with the blessings of their families, invite you to grace their Reception ceremony</p>
           <div class="details">
-            27 AUGUST 2026<br/>
-            MUHURTHAM — 11:07 AM<br/>
-            <span>SANKARNARAYANA KALYANA MANDAPAM, ONGOLE</span>
+            29 AUGUST 2026<br/>
+            Reception — 12:00 PM<br/>
+            <span>SRI SRINIVASA KALYANAMANDAPAM, DHARMAVARAM</span>
           </div>
         </div>
-        <canvas id="scratch-canvas" role="img" aria-label="Scratch card revealing the wedding invitation for Hima Varsha and Satya Roopesh"></canvas>
+        <canvas id="scratch-canvas" role="img" aria-label="Scratch card revealing the Reception invitation for Satya Roopesh &amp; Hima Varsha"></canvas>
       </div>
       <button class="scratch-fallback" id="scratch-fallback-btn">Can't scratch? Tap to reveal</button>
     </section>
 
-    <!-- ---- 4. MAIN WEDDING INVITATION ---- -->
+    <!-- ---- 4. MAIN Reception INVITATION ---- -->
     <!-- <section id="invitation">
       <div class="eyebrow reveal">The Ceremony</div>
-      <h2 class="section-title reveal">THE WEDDING</h2>
-      <div class="invitation-card reveal-scale">
+      <h2 class="section-title reveal">THE Reception</h2>
+      
+        <div class="family-block">
+          <div class="who">GROOM</div>
+          <div class="rel">S/o</div>
+          <div class="parents">Anna Venkatachalam &amp; Gayatri</div>
+        </div>
+     <div class="invitation-card reveal-scale">
         <div class="names">Hima Varsha<span class="amp">&amp;</span>Satya Roopesh</div>
         <div class="family-block">
           <div class="who">BRIDE</div>
           <div class="rel">D/o</div>
           <div class="parents">Badam Sivannarayana &amp; Rajarajeswari</div>
         </div>
-        <div class="family-block">
-          <div class="who">GROOM</div>
-          <div class="rel">S/o</div>
-          <div class="parents">Anna Venkatachalam &amp; Gayatri</div>
-        </div>
       </div>
+     
     </section> -->
 
     <!-- ---- 5. INVITATION MESSAGE ---- -->
@@ -424,11 +426,11 @@ font-weight: 600;}
           <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="2.2"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l2.8 2.8M16.2 16.2 19 19M19 5l-2.8 2.8M7.8 16.2 5 19"/></svg>
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3c2 3 4 5 4 8a4 4 0 0 1-8 0c0-3 2-5 4-8z"/><rect x="10.3" y="15" width="3.4" height="6" rx="1"/></svg>
         </div>
-        <p id="invitation-message-text">With the blessings of our elders and the love of our family and friends, we invite you to grace this auspicious occasion and bless Hima Varsha &amp; Satya Roopesh as they begin their beautiful journey together.</p>
+        <p id="invitation-message-text">With the blessings of our elders and the love of our family and friends, we invite you to grace this auspicious occasion and bless Satya Roopesh  &amp; Hima Varsha as they begin their beautiful journey together.</p>
       </div>
     </section>
 
-    <!-- ---- 6. MUHURTHAM COUNTDOWN ---- -->
+    <!-- ---- 6. RECEPTION COUNTDOWN ---- -->
     <section id="countdown">
       <div class="reveal">
         <div class="eyebrow">The Auspicious Hour</div>
@@ -440,17 +442,17 @@ font-weight: 600;}
         <div class="count-cell"><div class="num" id="cd-mins">00</div><div class="label">Mins</div></div>
         <div class="count-cell"><div class="num" id="cd-secs">00</div><div class="label">Secs</div></div>
       </div>
-      <div class="arrived-msg" id="arrived-msg" style="display:none">THE MUHURTHAM HAS ARRIVED ❤️</div>
+      <div class="arrived-msg" id="arrived-msg" style="display:none">THE RECEPTION HAS ARRIVED ❤️</div>
     </section>
 
     <!-- ---- 7. VENUE & LOCATION ---- -->
     <section id="venue">
       <div class="reveal">
         <div class="eyebrow">Where To Find Us</div>
-        <h2 class="section-title">THE WEDDING VENUE</h2>
-        <div class="venue-name" id="venue-name">Sankarnarayana Kalyana Madapam</div>
-        <div class="venue-loc" id="venue-loc">Ongole</div>
-        <div class="meta" id="venue-meta">27 August 2026 · Muhurtham — 11:07 AM</div>
+        <h2 class="section-title">THE RECEPTION VENUE</h2>
+        <div class="venue-name" id="venue-name">Sri Srinivasa Kalyana Madapam</div>
+        <div class="venue-loc" id="venue-loc">Dharmavaram</div>
+        <div class="meta" id="venue-meta">29 August 2026 · Reception — 12:00 PM</div>
       </div>
       <div class="venue-illustration reveal-scale" aria-hidden="true">
         <svg width="100%" height="100%" viewBox="0 0 300 150" fill="none">
@@ -466,17 +468,17 @@ font-weight: 600;}
       </a>
     </section>
 
-    <!-- ---- 8. WEDDING DAY DETAILS ---- -->
+    <!-- ---- 8. Reception DAY DETAILS ---- -->
     <section id="details">
       <div class="reveal">
         <div class="eyebrow">Save The Details</div>
         <h2 class="section-title">THE AUSPICIOUS DAY</h2>
       </div>
       <div class="detail-grid reveal-scale">
-        <div class="detail-cell"><div class="label">DATE</div><div class="value" id="detail-date">27 August 2026</div></div>
-        <div class="detail-cell"><div class="label">MUHURTHAM</div><div class="value" id="detail-muhurtham">11:07 AM</div></div>
-        <div class="detail-cell"><div class="label">VENUE</div><div class="value" id="detail-venue">Sankarnarayana Kalyana Mandapam</div></div>
-        <div class="detail-cell"><div class="label">LOCATION</div><div class="value" id="detail-location">Ongole</div></div>
+        <div class="detail-cell"><div class="label">DATE</div><div class="value" id="detail-date">29 August 2026</div></div>
+        <div class="detail-cell"><div class="label">RECEPTION</div><div class="value" id="detail-RECEPTION">12:00 PM</div></div>
+        <div class="detail-cell"><div class="label">VENUE</div><div class="value" id="detail-venue">Sri Srinivasa Kalyana Mandapam</div></div>
+        <div class="detail-cell"><div class="label">LOCATION</div><div class="value" id="detail-location">Dharmavaram</div></div>
       </div>
     </section>
 
@@ -487,30 +489,33 @@ font-weight: 600;}
         <h2 class="section-title">WITH THE BLESSINGS OF OUR FAMILIES</h2>
       </div>
       <div class="family-cols reveal-scale">  
+       
         <div class="family-col">
+          <div class="side-label">GROOM'S FAMILY</div>
+          <div class="name">Satya Roopesh</div>
+          <div class="rel">S/o</div>
+          <div class="parents">Anna Venkatachalam &amp; Gayatri Devi</div>
+          <div class="organisersRel">Best Wishes From</div>
+           <div class="organisersRel">Anna Venkata Nikhil  &amp; Manasalakshmi </div>
+        </div>
+      </div>
+      <div class="family-col">
           <div class="side-label">BRIDE'S FAMILY</div>
           <div class="name">Hima Varsha</div>
           <div class="rel">D/o</div>
           <div class="parents">Badam Sivannarayana &amp; Rajarajeswari</div>
         </div>
-        <div class="family-col">
-          <div class="side-label">GROOM'S FAMILY</div>
-          <div class="name">Satya Roopesh</div>
-          <div class="rel">S/o</div>
-          <div class="parents">Anna Venkatachalam &amp; Gayatri</div>
-        </div>
-      </div>
     </section> -->
 
     <!-- ---- 10. FINAL CLOSING ---- -->
     <!-- <section id="closing"> -->
       <!-- <p class="msg reveal">Your presence and blessings will make our celebration even more special.</p>
-      <div class="names reveal" id="closing-names">HIMA VARSHA</div>
+      <div class="names reveal" id="closing-names">SATYA ROOPESH</div>
       <div class="heart reveal">♥</div>
-      <div class="names reveal" id="closing-names-2">SATYA ROOPESH</div>
-      <div class="date reveal" id="closing-date">27 AUGUST 2026</div>
-      <div class="date reveal" id="closing-muhurtham" style="margin-top:2px;">MUHURTHAM • 11:07 AM</div>
-      <div class="venue-line reveal" id="closing-venue">Sankarnarayana Kalyana Madapam, Ongole</div>
+      <div class="names reveal" id="closing-names-2">HIMA VARSHA</div>
+      <div class="date reveal" id="closing-date">29 AUGUST 2026</div>
+      <div class="date reveal" id="closing-RECEPTION" style="margin-top:2px;">RECEPTION • 12:00 PM</div>
+      <div class="venue-line reveal" id="closing-venue">Sri Srinivasa Kalyana Madapam, Dharmavaram</div>
       <div class="signoff reveal">With love and blessings</div> -->
     <!-- </section> -->
 
@@ -521,30 +526,31 @@ font-weight: 600;}
 
 <script>
 /* ================================================================
-   2. WEDDING CONFIGURATION — edit everything here.
+   2. Reception CONFIGURATION — edit everything here.
    ================================================================ */
-const weddingConfig = {
-  bride: {
-    name: "Hima Varsha",
-    parents: "Badam Sivannarayana & Rajarajeswari"
-  },
-  groom: {
+const ReceptionConfig = {
+   groom: {
     name: "Satya Roopesh",
     parents: "Anna Venkatachalam & Gayatri"
   },
-  wedding: {
-    date: "2026-08-27T11:07:00", // used for the muhurtham countdown
-    displayDate: "27 August 2026",
-    muhurtham: "11:07 AM",
-    venue: "Sankarnarayana Kalyana Mandapam",
-    location: "Ongole"
+  bride: {
+    name: "Hima Varsha",
+    parents: "Badam Sivannarayana & Rajarajeswari"
+  }
+  ,
+  Reception: {
+    date: "2026-08-29T12:00:00", // used for the RECEPTION countdown
+    displayDate: "29 August 2026",
+    RECEPTION: "12:00 PM",
+    venue: "Sri Srinivasa Kalyana Mandapam",
+    location: "Dharmavaram"
   },
   scratchReveal: {
     title: "A LITTLE SURPRISE AWAITS...",
     instruction: "SCRATCH TO REVEAL",
-    revealMessage: "Together with the blessings of their families, invite you to grace their wedding ceremony."
+    revealMessage: "Together with the blessings of their families, invite you to grace their Reception ceremony."
   },
-  invitationMessage: "With the blessings of our elders and the love of our family and friends, we invite you to grace this auspicious occasion and bless Hima Varsha & Satya Roopesh as they begin their beautiful journey together.",
+  invitationMessage: "With the blessings of our elders and the love of our family and friends, we invite you to grace this auspicious occasion and bless Satya Roopesh & Hima Varsha as they begin their beautiful journey together.",
   media: {
     couplePhoto: "",       // path/URL to an actual couple photo
     venuePhoto: "",        // path/URL to an actual venue photo
@@ -556,39 +562,39 @@ const weddingConfig = {
 /* ================================================================
    3. RENDER FROM CONFIG
    ================================================================ */
-const initials = weddingConfig.bride.name[0] + "<span> &hearts;</span> " + weddingConfig.groom.name[0];
+const initials = ReceptionConfig.bride.name[0] + "<span> &hearts;</span> " + ReceptionConfig.groom.name[0];
 document.getElementById('opening-initials').innerHTML = initials;
-// document.getElementById('opening-date').textContent = weddingConfig.wedding.displayDate.toUpperCase();
-// document.getElementById('opening-venue').textContent = (weddingConfig.wedding.venue + ', ' + weddingConfig.wedding.location).toUpperCase();
+// document.getElementById('opening-date').textContent = ReceptionConfig.Reception.displayDate.toUpperCase();
+// document.getElementById('opening-venue').textContent = (ReceptionConfig.Reception.venue + ', ' + ReceptionConfig.Reception.location).toUpperCase();
 
 // document.getElementById('hero-names').innerHTML =
-  // weddingConfig.bride.name + '<span class="amp">&amp;</span>' + weddingConfig.groom.name;
+  // ReceptionConfig.bride.name + '<span class="amp">&amp;</span>' + ReceptionConfig.groom.name;
 // document.getElementById('hero-date-pill').textContent =
-  // weddingConfig.wedding.displayDate.toUpperCase() + ' · MUHURTHAM ' + weddingConfig.wedding.muhurtham;
+  // ReceptionConfig.Reception.displayDate.toUpperCase() + ' · RECEPTION ' + ReceptionConfig.Reception.RECEPTION;
 
-document.getElementById('scratch-title').textContent = weddingConfig.scratchReveal.title;
-document.getElementById('scratch-instruction').textContent = weddingConfig.scratchReveal.instruction;
-document.querySelector('.scratch-message .line').textContent = weddingConfig.scratchReveal.revealMessage;
+document.getElementById('scratch-title').textContent = ReceptionConfig.scratchReveal.title;
+document.getElementById('scratch-instruction').textContent = ReceptionConfig.scratchReveal.instruction;
+document.querySelector('.scratch-message .line').textContent = ReceptionConfig.scratchReveal.revealMessage;
 
-document.getElementById('invitation-message-text').textContent = weddingConfig.invitationMessage;
+document.getElementById('invitation-message-text').textContent = ReceptionConfig.invitationMessage;
 
-document.getElementById('venue-name').textContent = weddingConfig.wedding.venue;
-document.getElementById('venue-loc').textContent = weddingConfig.wedding.location;
-document.getElementById('venue-meta').textContent = weddingConfig.wedding.displayDate + ' · Muhurtham — ' + weddingConfig.wedding.muhurtham;
+document.getElementById('venue-name').textContent = ReceptionConfig.Reception.venue;
+document.getElementById('venue-loc').textContent = ReceptionConfig.Reception.location;
+document.getElementById('venue-meta').textContent = ReceptionConfig.Reception.displayDate + ' · RECEPTION — ' + ReceptionConfig.Reception.RECEPTION;
 document.getElementById('directions-btn').href =
-  'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(weddingConfig.wedding.venue + ', ' + weddingConfig.wedding.location);
+  'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(ReceptionConfig.Reception.venue + ', ' + ReceptionConfig.Reception.location);
 
-document.getElementById('detail-date').textContent = weddingConfig.wedding.displayDate;
-document.getElementById('detail-muhurtham').textContent = weddingConfig.wedding.muhurtham;
-document.getElementById('detail-venue').textContent = weddingConfig.wedding.venue;
-document.getElementById('detail-location').textContent = weddingConfig.wedding.location;
+document.getElementById('detail-date').textContent = ReceptionConfig.Reception.displayDate;
+document.getElementById('detail-RECEPTION').textContent = ReceptionConfig.Reception.RECEPTION;
+document.getElementById('detail-venue').textContent = ReceptionConfig.Reception.venue;
+document.getElementById('detail-location').textContent = ReceptionConfig.Reception.location;
 
-// document.getElementById('closing-date').textContent = weddingConfig.wedding.displayDate.toUpperCase();
-// document.getElementById('closing-muhurtham').textContent = 'MUHURTHAM • ' + weddingConfig.wedding.muhurtham;
-// document.getElementById('closing-venue').textContent = weddingConfig.wedding.venue + ', ' + weddingConfig.wedding.location;
+// document.getElementById('closing-date').textContent = ReceptionConfig.Reception.displayDate.toUpperCase();
+// document.getElementById('closing-RECEPTION').textContent = 'RECEPTION • ' + ReceptionConfig.Reception.RECEPTION;
+// document.getElementById('closing-venue').textContent = ReceptionConfig.Reception.venue + ', ' + ReceptionConfig.Reception.location;
 
-if (weddingConfig.media.backgroundMusic) {
-  document.getElementById('bgm').src = weddingConfig.media.backgroundMusic;
+if (ReceptionConfig.media.backgroundMusic) {
+  document.getElementById('bgm').src = ReceptionConfig.media.backgroundMusic;
 }
 
 /* ================================================================
@@ -641,7 +647,7 @@ function goldBurst(){
   }
 }
 
-function playWeddingSong(){
+function playReceptionSong(){
   const music = document.getElementById("music");
   music.currentTime = 7;
   music.play();
@@ -651,7 +657,7 @@ function openInvitation(){
   if (openingEl.classList.contains('opened')) return;
   chime();
   goldBurst();
-  playWeddingSong();
+  playReceptionSong();
   for (let i=0;i<10;i++) spawnPetal();
   openingEl.classList.add('opened');
   document.body.classList.remove('pre-open');
@@ -699,9 +705,9 @@ const io = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal, .reveal-scale').forEach(el => io.observe(el));
 
 /* ================================================================
-   6. MUHURTHAM COUNTDOWN
+   6. RECEPTION COUNTDOWN
    ================================================================ */
-const targetDate = new Date(weddingConfig.wedding.date).getTime();
+const targetDate = new Date(ReceptionConfig.Reception.date).getTime();
 function tickCountdown(){
   const now = Date.now();
   const diff = targetDate - now;
@@ -751,7 +757,7 @@ function initScratch(){
     ctx.fillStyle = 'rgba(92,15,31,.85)';
     ctx.font = '600 12px Marcellus, serif';
     ctx.textAlign = 'center';
-    ctx.fillText('\u2726  SCRATCH TO REVEAL  \u2726', w/2, h/2);
+    ctx.fillText('\u2926  SCRATCH TO REVEAL  \u2926', w/2, h/2);
   }
 
   function size(){
